@@ -42,7 +42,7 @@ public class Main {
         //nếu đưa n = -1 thì hàm sẽ đập vào mặt user/người xài
         //hàm 1 ngoại lệ
         System.err.println("Test -1! expected: Argument Exception is thrown!"
-                                            +"| Actual: ");
+                                            +"| Actual: ????");
         MathUtility.getFactorial(-1);
     }
     public static void testFactorialGivenRightArgumentReturnsWell(){
